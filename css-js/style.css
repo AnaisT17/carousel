@@ -2,22 +2,22 @@
 html {
     font-size: 10px;
     margin : 0;
-    padding : 10px 0px 0px 0px;
+    padding : 0;
 }
-/*
+
 *{
     text-decoration:none; 
 }
 
 body{
 
-    /* réglage mobile et + 
+    /* réglage mobile et +*/ 
     font-family:sans-serif;
     font-size:16px;
-  }*/
+  }
 
 img {
- width: 75%;
+ width: 80%;
 }
 
 ul li {
@@ -28,6 +28,13 @@ ul li {
     display : block;
 }
 
+ul {
+    text-align: center;
+}
 
+
+.button-wrapper {
+    text-align: center;
+}
   
 
