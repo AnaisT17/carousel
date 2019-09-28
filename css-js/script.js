@@ -8,4 +8,6 @@ function buttonNext () {
     i++;
     if (i==li.length)
     {i = 0}
+    li[i].classList.add("active");
 }
+
