@@ -3,7 +3,6 @@ html, body{
     font-size: 10px;
     margin : 0;
     padding : 0;
-    background: #34495e;
     font-family: 'Monoton', cursive;
 }
 /*
@@ -19,8 +18,8 @@ body{
   }*/
 
 img {
- width: 100%;
- height: 80%;
+width: 70%;
+ /*height: 100%;*/
 }
 
 ul li {
@@ -39,49 +38,31 @@ ul {
 
 .button-wrapper {
     text-align: center;
-    z-index: 1;
-    display: flex;
-    position: relative; 
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
 }
-/*
+
 .button-wrapper .button-left {
-    width: 50%;
-    background: #00000036;
-    position: absolute;
-    left:0;
-    z-index: 1;
-    transition: background 0.5s;
-    height: 72px;
-    transform: translateY(-50%);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: blanchedalmond;
-    left: auto;
-    right: 0;
+    background: orange;
+    color : black;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid black;
+    font-size: 2rem;
+    border-radius: 100px;
+    margin-right: 1rem;
+    
 }
 
 .button-wrapper .button-right {
-    width: 10%;
-    left: 0;
-    right: auto;
-    background: #00000036;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    position: absolute;
-    z-index: 1;
-    transition: background 0.5s;
-    height: 72px;
-    transform: translateY(-50%);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: blanchedalmond;
+    background: orange;
+    color : black;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid black;
+    font-size: 2rem;
+    border-radius: 100px;
+    margin-left: 1rem;
    
-}*/
+}
 
 /*------------------------ TITLE ---------------------------*/
 h2{
@@ -106,14 +87,14 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-/*
+
 .navigation {
     display: flex;
     position: absolute; 
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
-}*/
+}
 .bar {
 width: 5rem;
 height: 1rem;
@@ -161,12 +142,3 @@ input[name="r"]{
     }
 }
 
-/*------------------------ SCOREKEEPER.HTML---------------------------*/
-
-.titles {
-    text-align: center;
-    margin-right: 30%;
-    margin-left: 35%;
-    margin-top: 25%;
-    color: white;
-}

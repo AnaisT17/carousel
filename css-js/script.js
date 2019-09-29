@@ -4,6 +4,7 @@ const buttonRight = document.querySelector(".button-right");
 const buttonLeft = document.querySelector(".button-left");
 const li = document.querySelectorAll("li");
 let i = 0;
+let timer = setInterval(buttonNext,3000);
 
 function buttonNext () {
     li[i].classList.remove("active");
