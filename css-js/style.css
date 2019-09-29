@@ -162,3 +162,11 @@ input[name="r"]{
 }
 
 /*------------------------ SCOREKEEPER.HTML---------------------------*/
+
+.titles {
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 35%;
+    margin-top: 25%;
+    color: white;
+}
